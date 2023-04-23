@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- Required CSS -->
+    <link rel="stylesheet" href="myStyle.css">
+    <!-- Font Awesome v6.4.0-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="form-wrap">
+        <div class="tabs">
+            <h3 class="signup-tab"><a class="active" href="#signup-tab-content">Sign Up</a></h3>
+            <h3 class="login-tab"><a href="#login-tab-content">Login</a></h3>
+        </div><!-- .tabs -->
+        
+        <div class="tabs-content">
+            <div id="signup-tab-content" class="active">
+                <form action="" class="signup-form" method="post">
+                    <input type="email"  id="userEmail" class="input" placeholder="Enter email">
+                    <input type="text" id="userName" class="input" placeholder="Username">
+                    <input type="password" id="userPassword" class="input" placeholder="Enter password">
+                    <input type="submit" class="button" value="Sign Up">
+                </form><!-- .SignIn or Login form -->
+                <div class="help-text">
+                    <p>By signing up, you agree to our</p>
+                    <p><a href="#">Terms of service</a></p>
+                </div><!-- .help text-->
+            </div><!-- .Signup-tab-content -->
+        </div>
+    </div>
+</body>
+</html>
