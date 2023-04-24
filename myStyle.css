@@ -1,0 +1,18 @@
+/* Google Font (Ubuntu)*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+:root {
+    --primary: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
