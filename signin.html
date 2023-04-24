@@ -27,13 +27,27 @@
                     <input type="text" id="userName" class="input" placeholder="Username">
                     <input type="password" id="userPassword" class="input" placeholder="Enter password">
                     <input type="submit" class="button" value="Sign Up">
-                </form><!-- .SignIn or Login form -->
+                </form><!-- .SignUp form -->
                 <div class="help-text">
                     <p>By signing up, you agree to our</p>
                     <p><a href="#">Terms of service</a></p>
                 </div><!-- .help text-->
             </div><!-- .Signup-tab-content -->
-        </div>
-    </div>
+
+            <div id="login-tab-content" class="active">
+                <form action="" class="login-form" method="post">
+                    <input type="email"  id="userLogin" class="input" placeholder="Email or Username">
+                    <input type="text" id="userName" class="input" placeholder="Username">
+                    <input type="password" id="userPassword" class="input" placeholder="Enter password">
+                    <input type="checkbox" class="chekbox" id="rememberMe">
+                    <label for="rememberMe">Remember Me</label>
+                    <input type="submit" class="button" value="Login">
+                </form><!-- .Login form -->
+                <div class="help-text">
+                    <p><a href="#">Forget your password?</a></p>
+                </div><!-- .help text-->
+            </div><!-- .Login-tab-content -->
+        </div><!-- .tabs-content-->
+    </div><!-- .form-wrap-->
 </body>
 </html>
